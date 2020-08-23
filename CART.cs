@@ -130,7 +130,7 @@ namespace Buysmart_Online_Shopping_Store
 
         private void BtnUpdate_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\ASSIGNMENT C#\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='F:\C# FINAL ASSIGNMENT (GROUP 06)\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30");
 
             String update = "UPDATE Items SET Quantity = '" + CbQty.SelectedItem + "' WHERE Item_No = '" + TxtItemNo1.Text + "' ";
             SqlCommand cmd = new SqlCommand(update, con);
@@ -139,11 +139,14 @@ namespace Buysmart_Online_Shopping_Store
             {
                 con.Open();
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Quantity Updated successfully!");
+                MessageBox.Show("Quantity Updated successfully!", "CONGRATULATIONS!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CART1 c1 = new CART1();
+                c1.Show();
+                this.Hide();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error detected :" + ex);
+                MessageBox.Show("Error detected :" + ex, "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -153,7 +156,7 @@ namespace Buysmart_Online_Shopping_Store
 
         private void BtnDelete_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\ASSIGNMENT C#\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='F:\C# FINAL ASSIGNMENT (GROUP 06)\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30");
 
             String delete = "DELETE from Items WHERE Item_No = '" + TxtItemNo2.Text + "' ";
             SqlCommand cmd = new SqlCommand(delete, con);
@@ -162,11 +165,14 @@ namespace Buysmart_Online_Shopping_Store
             {
                 con.Open();
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Record Deleted successfully!");
+                MessageBox.Show("Record Deleted successfully!", "CONGRATULATIONS!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                CART1 c1 = new CART1();
+                c1.Show();
+                this.Hide();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error detected :" + ex);
+                MessageBox.Show("Error detected :" + ex, "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -249,7 +255,31 @@ namespace Buysmart_Online_Shopping_Store
 
         private void btnBuyNow_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Your order is successfull!", "CONGRATULATIONS!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Logged_HomeScreen lh = new Logged_HomeScreen();
+            lh.Show();
+            this.Hide();
+        }
 
+        private void CART_Load(object sender, EventArgs e)
+        {
+            string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='F:\C# FINAL ASSIGNMENT (GROUP 06)\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30";
+
+            string query = "SELECT * FROM Items";
+
+            SqlDataAdapter da = new SqlDataAdapter(query, conString);
+
+            DataSet ds = new DataSet();
+
+            da.Fill(ds, "Items");
+            dataGridCart.DataSource = ds.Tables["Items"];
+        }
+
+        private void picNormal_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            picNormal.Visible = false;
+            picMaximize.Visible = true;
         }
     }
 }

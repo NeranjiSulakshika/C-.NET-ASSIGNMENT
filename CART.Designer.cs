@@ -54,13 +54,7 @@
             this.TxtItemNo2 = new System.Windows.Forms.TextBox();
             this.BtnDelete = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ItemNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridCart = new System.Windows.Forms.DataGridView();
             this.MenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo2)).BeginInit();
@@ -73,7 +67,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SideButton)).BeginInit();
             this.panel1.SuspendLayout();
             this.s20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCart)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -174,6 +168,7 @@
             this.picNormal.TabIndex = 96;
             this.picNormal.TabStop = false;
             this.picNormal.Visible = false;
+            this.picNormal.Click += new System.EventHandler(this.picNormal_Click_1);
             // 
             // picMinimize
             // 
@@ -284,7 +279,7 @@
             this.s20.Controls.Add(this.TxtItemNo2);
             this.s20.Controls.Add(this.BtnDelete);
             this.s20.Controls.Add(this.label1);
-            this.s20.Controls.Add(this.dataGridView1);
+            this.s20.Controls.Add(this.dataGridCart);
             this.s20.Location = new System.Drawing.Point(46, 47);
             this.s20.Margin = new System.Windows.Forms.Padding(2);
             this.s20.Name = "s20";
@@ -297,7 +292,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(954, 86);
+            this.label4.Location = new System.Drawing.Point(937, 86);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 24);
@@ -307,7 +302,7 @@
             // TxtItemNo1
             // 
             this.TxtItemNo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.TxtItemNo1.Location = new System.Drawing.Point(1048, 86);
+            this.TxtItemNo1.Location = new System.Drawing.Point(1031, 86);
             this.TxtItemNo1.Margin = new System.Windows.Forms.Padding(2);
             this.TxtItemNo1.Multiline = true;
             this.TxtItemNo1.Name = "TxtItemNo1";
@@ -321,7 +316,7 @@
             this.btnBuyNow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBuyNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyNow.ForeColor = System.Drawing.Color.White;
-            this.btnBuyNow.Location = new System.Drawing.Point(971, 481);
+            this.btnBuyNow.Location = new System.Drawing.Point(954, 481);
             this.btnBuyNow.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuyNow.Name = "btnBuyNow";
             this.btnBuyNow.Size = new System.Drawing.Size(158, 62);
@@ -337,7 +332,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(981, 126);
+            this.label3.Location = new System.Drawing.Point(964, 126);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 24);
@@ -348,7 +343,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(945, 293);
+            this.label2.Location = new System.Drawing.Point(928, 293);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 24);
@@ -371,11 +366,12 @@
             "8",
             "9",
             "10"});
-            this.CbQty.Location = new System.Drawing.Point(1049, 121);
+            this.CbQty.Location = new System.Drawing.Point(1032, 121);
             this.CbQty.Margin = new System.Windows.Forms.Padding(2);
             this.CbQty.Name = "CbQty";
-            this.CbQty.Size = new System.Drawing.Size(50, 34);
+            this.CbQty.Size = new System.Drawing.Size(69, 34);
             this.CbQty.TabIndex = 5;
+            this.CbQty.Text = "QTY";
             this.CbQty.SelectedIndexChanged += new System.EventHandler(this.CbQty_SelectedIndexChanged);
             // 
             // BtnUpdate
@@ -385,7 +381,7 @@
             this.BtnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnUpdate.ForeColor = System.Drawing.Color.White;
-            this.BtnUpdate.Location = new System.Drawing.Point(971, 191);
+            this.BtnUpdate.Location = new System.Drawing.Point(954, 191);
             this.BtnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(158, 41);
@@ -400,7 +396,7 @@
             // TxtItemNo2
             // 
             this.TxtItemNo2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.TxtItemNo2.Location = new System.Drawing.Point(1039, 293);
+            this.TxtItemNo2.Location = new System.Drawing.Point(1022, 293);
             this.TxtItemNo2.Margin = new System.Windows.Forms.Padding(2);
             this.TxtItemNo2.Multiline = true;
             this.TxtItemNo2.Name = "TxtItemNo2";
@@ -414,7 +410,7 @@
             this.BtnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDelete.ForeColor = System.Drawing.Color.White;
-            this.BtnDelete.Location = new System.Drawing.Point(971, 360);
+            this.BtnDelete.Location = new System.Drawing.Point(954, 360);
             this.BtnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(158, 41);
@@ -438,69 +434,19 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "CART";
             // 
-            // dataGridView1
+            // dataGridCart
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ItemNo,
-            this.ItemName,
-            this.Description,
-            this.Price,
-            this.Quantity,
-            this.Total});
-            this.dataGridView1.Location = new System.Drawing.Point(39, 123);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(859, 441);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
-            // 
-            // ItemNo
-            // 
-            this.ItemNo.DataPropertyName = "ItemNo";
-            this.ItemNo.HeaderText = "Item No";
-            this.ItemNo.Name = "ItemNo";
-            this.ItemNo.ReadOnly = true;
-            // 
-            // ItemName
-            // 
-            this.ItemName.DataPropertyName = "ItemName";
-            this.ItemName.HeaderText = "Item Name";
-            this.ItemName.Name = "ItemName";
-            this.ItemName.ReadOnly = true;
-            // 
-            // Description
-            // 
-            this.Description.DataPropertyName = "Description";
-            this.Description.HeaderText = "Description";
-            this.Description.Name = "Description";
-            this.Description.ReadOnly = true;
-            this.Description.Width = 310;
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "Price";
-            this.Price.HeaderText = "Price";
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            // 
-            // Quantity
-            // 
-            this.Quantity.DataPropertyName = "Quantty";
-            this.Quantity.HeaderText = "Quantity";
-            this.Quantity.Name = "Quantity";
-            this.Quantity.ReadOnly = true;
-            // 
-            // Total
-            // 
-            this.Total.DataPropertyName = "Total";
-            this.Total.HeaderText = "Total Amount";
-            this.Total.Name = "Total";
-            this.Total.ReadOnly = true;
+            this.dataGridCart.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridCart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridCart.Location = new System.Drawing.Point(111, 157);
+            this.dataGridCart.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridCart.Name = "dataGridCart";
+            this.dataGridCart.ReadOnly = true;
+            this.dataGridCart.RowHeadersWidth = 51;
+            this.dataGridCart.RowTemplate.Height = 24;
+            this.dataGridCart.Size = new System.Drawing.Size(691, 252);
+            this.dataGridCart.TabIndex = 0;
+            this.dataGridCart.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
             // CART
             // 
@@ -512,7 +458,9 @@
             this.Controls.Add(this.MenuVertical);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CART";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CART";
+            this.Load += new System.EventHandler(this.CART_Load);
             this.MenuVertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo2)).EndInit();
@@ -527,7 +475,7 @@
             this.panel1.ResumeLayout(false);
             this.s20.ResumeLayout(false);
             this.s20.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCart)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -556,15 +504,9 @@
         private System.Windows.Forms.TextBox TxtItemNo2;
         private System.Windows.Forms.Button BtnDelete;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridCart;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox TxtItemNo1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ItemNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ItemName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.Button SignOut;
     }
 }

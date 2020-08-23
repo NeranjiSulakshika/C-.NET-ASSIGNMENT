@@ -397,6 +397,7 @@
             this.Controls.Add(this.MenuVertical);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Logged_HomeScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Logged_HomeScreen";
             this.Load += new System.EventHandler(this.Logged_HomeScreen_Load);
             this.MenuVertical.ResumeLayout(false);

@@ -405,6 +405,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HOME";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HOME";
             this.Load += new System.EventHandler(this.HOME_Load);
             this.MenuVertical.ResumeLayout(false);

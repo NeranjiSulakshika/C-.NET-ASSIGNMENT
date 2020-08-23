@@ -42,7 +42,22 @@
             this.Heading = new System.Windows.Forms.Label();
             this.SideButton = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.NormalPanel = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.LAPTOPS = new System.Windows.Forms.GroupBox();
             this.MOBILES = new System.Windows.Forms.GroupBox();
+            this.lblID5 = new System.Windows.Forms.Label();
+            this.lblID4 = new System.Windows.Forms.Label();
+            this.lblID3 = new System.Windows.Forms.Label();
+            this.lblID2 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -82,7 +97,11 @@
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.s20 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.LAPTOPS = new System.Windows.Forms.GroupBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.lblID10 = new System.Windows.Forms.Label();
             this.C5Qty = new System.Windows.Forms.ComboBox();
             this.lblID9 = new System.Windows.Forms.Label();
@@ -126,16 +145,6 @@
             this.MainPic = new System.Windows.Forms.PictureBox();
             this.MainPicMobiles = new System.Windows.Forms.PictureBox();
             this.MainPicLaptops = new System.Windows.Forms.PictureBox();
-            this.lblID5 = new System.Windows.Forms.Label();
-            this.lblID4 = new System.Windows.Forms.Label();
-            this.lblID3 = new System.Windows.Forms.Label();
-            this.lblID2 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.MenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo2)).BeginInit();
@@ -147,6 +156,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SideButton)).BeginInit();
             this.panel1.SuspendLayout();
+            this.NormalPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.LAPTOPS.SuspendLayout();
             this.MOBILES.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.s10plus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p20)).BeginInit();
@@ -157,7 +176,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            this.LAPTOPS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hpi5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hpi7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hpi9)).BeginInit();
@@ -343,6 +361,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.Controls.Add(this.MOBILES);
+            this.panel1.Controls.Add(this.NormalPanel);
             this.panel1.Controls.Add(this.LAPTOPS);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label1);
@@ -356,6 +375,156 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1296, 647);
             this.panel1.TabIndex = 84;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // NormalPanel
+            // 
+            this.NormalPanel.BackColor = System.Drawing.Color.Silver;
+            this.NormalPanel.Controls.Add(this.pictureBox10);
+            this.NormalPanel.Controls.Add(this.pictureBox9);
+            this.NormalPanel.Controls.Add(this.pictureBox8);
+            this.NormalPanel.Controls.Add(this.pictureBox7);
+            this.NormalPanel.Controls.Add(this.pictureBox4);
+            this.NormalPanel.Controls.Add(this.pictureBox3);
+            this.NormalPanel.Controls.Add(this.pictureBox2);
+            this.NormalPanel.Controls.Add(this.pictureBox1);
+            this.NormalPanel.Location = new System.Drawing.Point(28, 427);
+            this.NormalPanel.Name = "NormalPanel";
+            this.NormalPanel.Size = new System.Drawing.Size(1241, 263);
+            this.NormalPanel.TabIndex = 110;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(1062, 109);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 7;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(911, 9);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 6;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(762, 112);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 5;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(612, 9);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(454, 109);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(303, 9);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(158, 109);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(4, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(174, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // LAPTOPS
+            // 
+            this.LAPTOPS.BackColor = System.Drawing.Color.White;
+            this.LAPTOPS.Controls.Add(this.label21);
+            this.LAPTOPS.Controls.Add(this.label20);
+            this.LAPTOPS.Controls.Add(this.label19);
+            this.LAPTOPS.Controls.Add(this.label18);
+            this.LAPTOPS.Controls.Add(this.label17);
+            this.LAPTOPS.Controls.Add(this.lblID10);
+            this.LAPTOPS.Controls.Add(this.C5Qty);
+            this.LAPTOPS.Controls.Add(this.lblID9);
+            this.LAPTOPS.Controls.Add(this.C4Qty);
+            this.LAPTOPS.Controls.Add(this.lblID8);
+            this.LAPTOPS.Controls.Add(this.C3Qty);
+            this.LAPTOPS.Controls.Add(this.lblID7);
+            this.LAPTOPS.Controls.Add(this.lblID6);
+            this.LAPTOPS.Controls.Add(this.C2Qty);
+            this.LAPTOPS.Controls.Add(this.C1Qty);
+            this.LAPTOPS.Controls.Add(this.label6);
+            this.LAPTOPS.Controls.Add(this.label5);
+            this.LAPTOPS.Controls.Add(this.label4);
+            this.LAPTOPS.Controls.Add(this.label3);
+            this.LAPTOPS.Controls.Add(this.label2);
+            this.LAPTOPS.Controls.Add(this.btnAddToCart10);
+            this.LAPTOPS.Controls.Add(this.btnAddToCart9);
+            this.LAPTOPS.Controls.Add(this.btnAddToCart8);
+            this.LAPTOPS.Controls.Add(this.btnAddToCart7);
+            this.LAPTOPS.Controls.Add(this.btnAddToCart6);
+            this.LAPTOPS.Controls.Add(this.C05Price);
+            this.LAPTOPS.Controls.Add(this.C04Price);
+            this.LAPTOPS.Controls.Add(this.C03Price);
+            this.LAPTOPS.Controls.Add(this.C02Price);
+            this.LAPTOPS.Controls.Add(this.C01Price);
+            this.LAPTOPS.Controls.Add(this.C05);
+            this.LAPTOPS.Controls.Add(this.C04);
+            this.LAPTOPS.Controls.Add(this.C03);
+            this.LAPTOPS.Controls.Add(this.C02);
+            this.LAPTOPS.Controls.Add(this.C01);
+            this.LAPTOPS.Controls.Add(this.hpi5);
+            this.LAPTOPS.Controls.Add(this.hpi7);
+            this.LAPTOPS.Controls.Add(this.hpi9);
+            this.LAPTOPS.Controls.Add(this.hpSpectre);
+            this.LAPTOPS.Controls.Add(this.hpOmenGaming);
+            this.LAPTOPS.Controls.Add(this.pictureBox6);
+            this.LAPTOPS.Location = new System.Drawing.Point(28, 459);
+            this.LAPTOPS.Margin = new System.Windows.Forms.Padding(2);
+            this.LAPTOPS.Name = "LAPTOPS";
+            this.LAPTOPS.Padding = new System.Windows.Forms.Padding(2);
+            this.LAPTOPS.Size = new System.Drawing.Size(1241, 217);
+            this.LAPTOPS.TabIndex = 107;
+            this.LAPTOPS.TabStop = false;
+            this.LAPTOPS.Visible = false;
             // 
             // MOBILES
             // 
@@ -406,7 +575,7 @@
             this.MOBILES.Controls.Add(this.pictureBox23);
             this.MOBILES.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MOBILES.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.MOBILES.Location = new System.Drawing.Point(28, 410);
+            this.MOBILES.Location = new System.Drawing.Point(26, 448);
             this.MOBILES.Margin = new System.Windows.Forms.Padding(2);
             this.MOBILES.Name = "MOBILES";
             this.MOBILES.Padding = new System.Windows.Forms.Padding(2);
@@ -415,6 +584,52 @@
             this.MOBILES.TabStop = false;
             this.MOBILES.Visible = false;
             this.MOBILES.Enter += new System.EventHandler(this.MOBILES_Enter_1);
+            // 
+            // lblID5
+            // 
+            this.lblID5.AutoSize = true;
+            this.lblID5.Location = new System.Drawing.Point(1207, 16);
+            this.lblID5.Name = "lblID5";
+            this.lblID5.Size = new System.Drawing.Size(35, 17);
+            this.lblID5.TabIndex = 44;
+            this.lblID5.Text = "M05";
+            // 
+            // lblID4
+            // 
+            this.lblID4.AutoSize = true;
+            this.lblID4.Location = new System.Drawing.Point(981, 18);
+            this.lblID4.Name = "lblID4";
+            this.lblID4.Size = new System.Drawing.Size(35, 17);
+            this.lblID4.TabIndex = 43;
+            this.lblID4.Text = "M04";
+            // 
+            // lblID3
+            // 
+            this.lblID3.AutoSize = true;
+            this.lblID3.Location = new System.Drawing.Point(724, 18);
+            this.lblID3.Name = "lblID3";
+            this.lblID3.Size = new System.Drawing.Size(35, 17);
+            this.lblID3.TabIndex = 42;
+            this.lblID3.Text = "M03";
+            this.lblID3.Click += new System.EventHandler(this.lblID3_Click);
+            // 
+            // lblID2
+            // 
+            this.lblID2.AutoSize = true;
+            this.lblID2.Location = new System.Drawing.Point(446, 20);
+            this.lblID2.Name = "lblID2";
+            this.lblID2.Size = new System.Drawing.Size(35, 17);
+            this.lblID2.TabIndex = 41;
+            this.lblID2.Text = "M02";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(117, 20);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(58, 17);
+            this.label16.TabIndex = 40;
+            this.label16.Text = "Item-Id :";
             // 
             // label12
             // 
@@ -897,58 +1112,55 @@
             this.pictureBox23.TabIndex = 0;
             this.pictureBox23.TabStop = false;
             // 
-            // LAPTOPS
+            // label21
             // 
-            this.LAPTOPS.BackColor = System.Drawing.Color.White;
-            this.LAPTOPS.Controls.Add(this.label21);
-            this.LAPTOPS.Controls.Add(this.label20);
-            this.LAPTOPS.Controls.Add(this.label19);
-            this.LAPTOPS.Controls.Add(this.label18);
-            this.LAPTOPS.Controls.Add(this.label17);
-            this.LAPTOPS.Controls.Add(this.lblID10);
-            this.LAPTOPS.Controls.Add(this.C5Qty);
-            this.LAPTOPS.Controls.Add(this.lblID9);
-            this.LAPTOPS.Controls.Add(this.C4Qty);
-            this.LAPTOPS.Controls.Add(this.lblID8);
-            this.LAPTOPS.Controls.Add(this.C3Qty);
-            this.LAPTOPS.Controls.Add(this.lblID7);
-            this.LAPTOPS.Controls.Add(this.lblID6);
-            this.LAPTOPS.Controls.Add(this.C2Qty);
-            this.LAPTOPS.Controls.Add(this.C1Qty);
-            this.LAPTOPS.Controls.Add(this.label6);
-            this.LAPTOPS.Controls.Add(this.label5);
-            this.LAPTOPS.Controls.Add(this.label4);
-            this.LAPTOPS.Controls.Add(this.label3);
-            this.LAPTOPS.Controls.Add(this.label2);
-            this.LAPTOPS.Controls.Add(this.btnAddToCart10);
-            this.LAPTOPS.Controls.Add(this.btnAddToCart9);
-            this.LAPTOPS.Controls.Add(this.btnAddToCart8);
-            this.LAPTOPS.Controls.Add(this.btnAddToCart7);
-            this.LAPTOPS.Controls.Add(this.btnAddToCart6);
-            this.LAPTOPS.Controls.Add(this.C05Price);
-            this.LAPTOPS.Controls.Add(this.C04Price);
-            this.LAPTOPS.Controls.Add(this.C03Price);
-            this.LAPTOPS.Controls.Add(this.C02Price);
-            this.LAPTOPS.Controls.Add(this.C01Price);
-            this.LAPTOPS.Controls.Add(this.C05);
-            this.LAPTOPS.Controls.Add(this.C04);
-            this.LAPTOPS.Controls.Add(this.C03);
-            this.LAPTOPS.Controls.Add(this.C02);
-            this.LAPTOPS.Controls.Add(this.C01);
-            this.LAPTOPS.Controls.Add(this.hpi5);
-            this.LAPTOPS.Controls.Add(this.hpi7);
-            this.LAPTOPS.Controls.Add(this.hpi9);
-            this.LAPTOPS.Controls.Add(this.hpSpectre);
-            this.LAPTOPS.Controls.Add(this.hpOmenGaming);
-            this.LAPTOPS.Controls.Add(this.pictureBox6);
-            this.LAPTOPS.Location = new System.Drawing.Point(28, 410);
-            this.LAPTOPS.Margin = new System.Windows.Forms.Padding(2);
-            this.LAPTOPS.Name = "LAPTOPS";
-            this.LAPTOPS.Padding = new System.Windows.Forms.Padding(2);
-            this.LAPTOPS.Size = new System.Drawing.Size(1241, 217);
-            this.LAPTOPS.TabIndex = 107;
-            this.LAPTOPS.TabStop = false;
-            this.LAPTOPS.Visible = false;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label21.Location = new System.Drawing.Point(1146, 17);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(58, 17);
+            this.label21.TabIndex = 49;
+            this.label21.Text = "Item-Id :";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label20.Location = new System.Drawing.Point(893, 17);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(58, 17);
+            this.label20.TabIndex = 48;
+            this.label20.Text = "Item-Id :";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label19.Location = new System.Drawing.Point(654, 17);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(58, 17);
+            this.label19.TabIndex = 47;
+            this.label19.Text = "Item-Id :";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label18.Location = new System.Drawing.Point(370, 17);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(58, 17);
+            this.label18.TabIndex = 46;
+            this.label18.Text = "Item-Id :";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label17.Location = new System.Drawing.Point(150, 13);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(58, 17);
+            this.label17.TabIndex = 45;
+            this.label17.Text = "Item-Id :";
             // 
             // lblID10
             // 
@@ -957,9 +1169,9 @@
             this.lblID10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblID10.Location = new System.Drawing.Point(1198, 18);
             this.lblID10.Name = "lblID10";
-            this.lblID10.Size = new System.Drawing.Size(37, 17);
+            this.lblID10.Size = new System.Drawing.Size(33, 17);
             this.lblID10.TabIndex = 44;
-            this.lblID10.Text = " C05";
+            this.lblID10.Text = "C05";
             // 
             // C5Qty
             // 
@@ -1428,7 +1640,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Laptops",
             "Mobiles"});
-            this.comboBox1.Location = new System.Drawing.Point(113, 340);
+            this.comboBox1.Location = new System.Drawing.Point(105, 355);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(223, 39);
@@ -1443,7 +1655,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(498, 325);
+            this.label1.Location = new System.Drawing.Point(496, 340);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(318, 57);
             this.label1.TabIndex = 103;
@@ -1515,102 +1727,6 @@
             this.MainPicLaptops.TabStop = false;
             this.MainPicLaptops.Visible = false;
             // 
-            // lblID5
-            // 
-            this.lblID5.AutoSize = true;
-            this.lblID5.Location = new System.Drawing.Point(1207, 16);
-            this.lblID5.Name = "lblID5";
-            this.lblID5.Size = new System.Drawing.Size(35, 17);
-            this.lblID5.TabIndex = 44;
-            this.lblID5.Text = "M05";
-            // 
-            // lblID4
-            // 
-            this.lblID4.AutoSize = true;
-            this.lblID4.Location = new System.Drawing.Point(981, 18);
-            this.lblID4.Name = "lblID4";
-            this.lblID4.Size = new System.Drawing.Size(35, 17);
-            this.lblID4.TabIndex = 43;
-            this.lblID4.Text = "M04";
-            // 
-            // lblID3
-            // 
-            this.lblID3.AutoSize = true;
-            this.lblID3.Location = new System.Drawing.Point(724, 18);
-            this.lblID3.Name = "lblID3";
-            this.lblID3.Size = new System.Drawing.Size(35, 17);
-            this.lblID3.TabIndex = 42;
-            this.lblID3.Text = "M03";
-            this.lblID3.Click += new System.EventHandler(this.lblID3_Click);
-            // 
-            // lblID2
-            // 
-            this.lblID2.AutoSize = true;
-            this.lblID2.Location = new System.Drawing.Point(446, 20);
-            this.lblID2.Name = "lblID2";
-            this.lblID2.Size = new System.Drawing.Size(35, 17);
-            this.lblID2.TabIndex = 41;
-            this.lblID2.Text = "M02";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(117, 20);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(58, 17);
-            this.label16.TabIndex = 40;
-            this.label16.Text = "Item-Id :";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label17.Location = new System.Drawing.Point(150, 13);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(58, 17);
-            this.label17.TabIndex = 45;
-            this.label17.Text = "Item-Id :";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label18.Location = new System.Drawing.Point(370, 17);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(58, 17);
-            this.label18.TabIndex = 46;
-            this.label18.Text = "Item-Id :";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label19.Location = new System.Drawing.Point(654, 17);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(58, 17);
-            this.label19.TabIndex = 47;
-            this.label19.Text = "Item-Id :";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label20.Location = new System.Drawing.Point(893, 17);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(58, 17);
-            this.label20.TabIndex = 48;
-            this.label20.Text = "Item-Id :";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.label21.Location = new System.Drawing.Point(1146, 17);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(58, 17);
-            this.label21.TabIndex = 49;
-            this.label21.Text = "Item-Id :";
-            // 
             // ACCESSORIES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1621,6 +1737,7 @@
             this.Controls.Add(this.MenuVertical);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ACCESSORIES";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Accessories";
             this.MenuVertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -1635,6 +1752,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.SideButton)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.NormalPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.LAPTOPS.ResumeLayout(false);
+            this.LAPTOPS.PerformLayout();
             this.MOBILES.ResumeLayout(false);
             this.MOBILES.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.s10plus)).EndInit();
@@ -1646,8 +1774,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            this.LAPTOPS.ResumeLayout(false);
-            this.LAPTOPS.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hpi5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hpi7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hpi9)).EndInit();
@@ -1770,5 +1896,14 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel NormalPanel;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

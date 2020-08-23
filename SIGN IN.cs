@@ -120,38 +120,46 @@ namespace Buysmart_Online_Shopping_Store
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\ASSIGNMENT C#\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30");
-            con.Open();
-            SqlCommand cmd = new SqlCommand("SELECT * FROM SignUp WHERE Email = '" + txtEmail.Text+"' AND Password = '"+txtPassword.Text+"' ", con);
-
-            SqlDataReader dr;
-            dr = cmd.ExecuteReader();
-
-            int count = 0;
-
-            while(dr.Read())
+            if (txtEmail.Text == "" || txtPassword.Text == "")
             {
-                count += 1;
-            }
-
-            if(count == 1)
-            {
-                MessageBox.Show("WELCOME!");
-                Logged_HomeScreen lg = new Logged_HomeScreen();
-                lg.Show();
-                this.Hide();
-            }
-            else if(count > 0)
-            {
-                MessageBox.Show("Duplicate email & password.");
+                MessageBox.Show("Please fill the all fields!", "WARNING!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                MessageBox.Show("Email & password is not correct.");
-            }
+                SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='F:\C# FINAL ASSIGNMENT (GROUP 06)\DATABASE (Accounts).mdf';Integrated Security=True;Connect Timeout=30");
+                con.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM SignUp WHERE Email = '" + txtEmail.Text + "' AND Password = '" + txtPassword.Text + "' ", con);
 
-            txtEmail.Clear();
-            txtPassword.Clear();
+                SqlDataReader dr;
+                dr = cmd.ExecuteReader();
+
+                int count = 0;
+
+                while (dr.Read())
+                {
+                    count += 1;
+                }
+
+                if (count == 1)
+                {
+                    MessageBox.Show("Hello " + txtEmail.Text + ", Welcome back to our online shopping store!", "WELCOME!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Logged_HomeScreen lg = new Logged_HomeScreen();
+                    lg.Show();
+                    this.Hide();
+                }
+                else if (count > 0)
+                {
+                    MessageBox.Show("Duplicate email & password.", "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtEmail.Clear();
+                    txtPassword.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Email or password is not correct.", "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtEmail.Clear();
+                    txtPassword.Clear();
+                }
+            }          
         }
 
         private void Heading_MouseEnter(object sender, EventArgs e)
@@ -175,24 +183,10 @@ namespace Buysmart_Online_Shopping_Store
 
         private void TxtEmail_Enter(object sender, EventArgs e)
         {
-            Email = txtEmail.Text;
-
-            if(Email == "Email")
-            {
-                txtEmail.Text = "";
-                txtEmail.ForeColor = Color.Black;
-            }
         }
 
         private void TxtPassword_Enter(object sender, EventArgs e)
         {
-            Password = txtPassword.Text;
-
-            if (Password == "Password")
-            {
-                txtPassword.Text = "";
-                txtEmail.ForeColor = Color.Black;
-            }
         }
 
         private void TxtEmail_Leave(object sender, EventArgs e)
@@ -215,7 +209,7 @@ namespace Buysmart_Online_Shopping_Store
                 Regex RegxEmail = new Regex(@"^([a-zA-Z0-9_\-])([a-zA-Z0-9_\-\.]*)@(\[((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}|((([a-zA-Z0-9\-]+)\.)+))([a-zA-Z]{2,}|(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\])$");
                 if (!RegxEmail.IsMatch(txtEmail.Text.Trim()))
                 {
-                    MessageBox.Show("Invalid email. Please provide valid email.");
+                    MessageBox.Show("Invalid email. Please provide valid email.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtEmail.Focus();
                     return;
                 }
@@ -224,13 +218,6 @@ namespace Buysmart_Online_Shopping_Store
 
         private void TxtPassword_Leave(object sender, EventArgs e)
         {
-            Password = txtPassword.Text;
-
-            if (Password == (""))
-            {
-                txtPassword.Text = "Password";
-                txtEmail.ForeColor = Color.Gray;
-            }
         }
 
         private void TxtEmail_TextChanged(object sender, EventArgs e)
@@ -263,6 +250,11 @@ namespace Buysmart_Online_Shopping_Store
         }
 
         private void btnSignIn_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

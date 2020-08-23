@@ -74,6 +74,12 @@
     <Compile Include="CART.Designer.cs">
       <DependentUpon>CART.cs</DependentUpon>
     </Compile>
+    <Compile Include="CART1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CART1.Designer.cs">
+      <DependentUpon>CART1.cs</DependentUpon>
+    </Compile>
     <Compile Include="HOME.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CART.resx">
       <DependentUpon>CART.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CART1.resx">
+      <DependentUpon>CART1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HOME.resx">
       <DependentUpon>HOME.cs</DependentUpon>

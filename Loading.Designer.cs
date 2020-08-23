@@ -41,9 +41,9 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 450);
+            this.panel1.Location = new System.Drawing.Point(0, 633);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1000, 17);
+            this.panel1.Size = new System.Drawing.Size(1200, 17);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -66,10 +66,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1000, 467);
+            this.ClientSize = new System.Drawing.Size(1200, 650);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loading";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loading";
             this.Load += new System.EventHandler(this.Loading_Load);
             this.panel1.ResumeLayout(false);

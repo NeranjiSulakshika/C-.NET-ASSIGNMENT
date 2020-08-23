@@ -104,6 +104,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1294, 696);
             this.panel1.TabIndex = 82;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // chShow
             // 
@@ -170,7 +171,6 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(304, 26);
             this.txtPassword.TabIndex = 200;
-            this.txtPassword.Text = "Password";
             this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.Enter += new System.EventHandler(this.TxtPassword_Enter);
             this.txtPassword.Leave += new System.EventHandler(this.TxtPassword_Leave);
@@ -195,7 +195,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(304, 26);
             this.txtEmail.TabIndex = 200;
-            this.txtEmail.Text = "Email";
             this.txtEmail.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
             this.txtEmail.Enter += new System.EventHandler(this.TxtEmail_Enter);
             this.txtEmail.Leave += new System.EventHandler(this.TxtEmail_Leave);
@@ -445,6 +444,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SignIn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SIGN IN";
             this.SignInPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

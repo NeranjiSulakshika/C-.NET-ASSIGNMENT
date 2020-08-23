@@ -432,7 +432,6 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(402, 26);
             this.txtPassword.TabIndex = 200;
-            this.txtPassword.Text = "Password";
             this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
             this.txtPassword.Enter += new System.EventHandler(this.TxtPassword_Enter);
@@ -447,7 +446,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(497, 26);
             this.txtEmail.TabIndex = 200;
-            this.txtEmail.Text = "Email";
             this.txtEmail.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
             this.txtEmail.Enter += new System.EventHandler(this.TxtEmail_Enter);
             this.txtEmail.Leave += new System.EventHandler(this.TxtEmail_Leave);
@@ -462,7 +460,6 @@
             this.txtLname.Name = "txtLname";
             this.txtLname.Size = new System.Drawing.Size(226, 26);
             this.txtLname.TabIndex = 200;
-            this.txtLname.Text = "Last name";
             this.txtLname.Enter += new System.EventHandler(this.TxtLname_Enter);
             this.txtLname.Leave += new System.EventHandler(this.TxtLname_Leave);
             // 
@@ -476,7 +473,6 @@
             this.txtFname.Name = "txtFname";
             this.txtFname.Size = new System.Drawing.Size(226, 26);
             this.txtFname.TabIndex = 200;
-            this.txtFname.Text = "First Name";
             this.txtFname.TextChanged += new System.EventHandler(this.TxtFname_TextChanged);
             this.txtFname.Enter += new System.EventHandler(this.TxtFname_Enter);
             this.txtFname.Leave += new System.EventHandler(this.TxtFname_Leave);
@@ -548,6 +544,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SignUP";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SIGN UP";
             this.MenuVertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
