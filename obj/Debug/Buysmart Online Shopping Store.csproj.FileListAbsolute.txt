@@ -1,0 +1,180 @@
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.BEAUTY.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.LoggedBeautyPage.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Accessories.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+C:\Users\Neranji\source\repos\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+F:\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Desktop\C# ASSIGNMENT\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Desktop\C# FINAL ASSIGNMENT(GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+E:\ASSIGNMENT C#\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+E:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Downloads\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+F:\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database.mdf
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Database_log.ldf
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe.config
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\bin\Debug\Buysmart Online Shopping Store.pdb
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csprojAssemblyReference.cache
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.ACCESSORIES.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.CART1.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.HOME.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Loading.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_AccessoriesPage.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Logged_HomeScreen.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignUP.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.SignIn.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart_Online_Shopping_Store.Properties.Resources.resources
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.GenerateResource.cache
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.csproj.CoreCompileInputs.cache
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.exe
+C:\Users\Neranji\Documents\C# FINAL ASSIGNMENT (GROUP 06)\Buysmart Online Shopping Store\obj\Debug\Buysmart Online Shopping Store.pdb
